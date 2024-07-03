@@ -12,7 +12,9 @@
 # Create a Billing alarm: I created a billing alarm follwing the below steps
 
 - 1st step is to create an SNS topic using the aws cli: 
-    ``aws sns create-topic --name billing-alarm ``
+    ```sh
+    aws sns create-topic --name billing-alarm 
+    ```
 
 - 2nd step i created a subscribers using the below cli command:   
 `aws sns subscribe \
